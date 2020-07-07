@@ -1,0 +1,26 @@
+{
+  "name": "@garbados/pouchdb-cabal",
+  "version": "1.0.0",
+  "description": "Interact with Cabal using PouchDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix && dependency-check index.js test.js -i mocha -i standard -i dependency-check && mocha && npm audit fix"
+  },
+  "author": "Diana Thayer <garbados@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@garbados/pouchdb-hypercore": "^2.0.1",
+    "hypercore-crypto": "^2.1.1",
+    "hyperswarm": "^2.14.0",
+    "lodash.isequal": "^4.5.0",
+    "multifeed": "^5.2.3",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "dependency-check": "^4.1.0",
+    "mocha": "^8.0.1",
+    "pouchdb": "^7.2.1",
+    "rimraf": "^3.0.2",
+    "standard": "^14.3.4"
+  }
+}
