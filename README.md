@@ -1,7 +1,5 @@
 # pouchdb-cabal
 
-[![Build Status](https://travis-ci.com/garbados/pouchdb-cabal.svg?branch=master)](https://travis-ci.com/garbados/pouchdb-cabal)
-[![Coverage Status](https://coveralls.io/repos/github/garbados/pouchdb-cabal/badge.svg?branch=master)](https://coveralls.io/github/garbados/pouchdb-cabal?branch=master)
 [![Stability](https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square)](https://nodejs.org/api/documentation.html#documentation_stability_index)
 [![NPM Version](https://img.shields.io/npm/v/@garbados/pouchdb-cabal.svg?style=flat-square)](https://www.npmjs.com/package/@garbados/pouchdb-cabal)
 [![JS Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard)

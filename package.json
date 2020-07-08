@@ -1,6 +1,6 @@
 {
   "name": "@garbados/pouchdb-cabal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interact with Cabal using PouchDB.",
   "main": "index.js",
   "scripts": {
