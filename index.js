@@ -219,10 +219,12 @@ module.exports = function (PouchDB) {
     }
   })
   // wrap destroy to also close multifeed
+  const close = PouchDB.prototype.close
   const destroy = PouchDB.prototype.destroy
   PouchDB.prototype.close = async function () {
     if (this._log_swarm) await new Promise((resolve) => { this._log_swarm.destroy(resolve) })
     if (this._logs) await new Promise((resolve) => { this._logs.close(resolve) })
+    await close.call(this)
   }
   PouchDB.prototype.destroy = async function (opts = {}, callback) {
     if (typeof opts === 'function') { return this.destroy({}, opts) }
